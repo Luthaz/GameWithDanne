@@ -1,0 +1,15 @@
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.net.URL?>
+<BorderPane fx:controller="Controller"
+            xmlns:fx="http://javafx.com/fxml">
+ 
+    <stylesheets>
+        <URL value="@main.css"/>
+    </stylesheets>
+ 
+    <center>
+        <Button text="Press me" onAction="#handlePressMe" fx:id="pressMeButton"/>
+    </center>
+ 
+</BorderPane>
