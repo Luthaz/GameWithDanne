@@ -1,7 +1,7 @@
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 /**
@@ -14,28 +14,12 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
-        Button startButton = new Button("Start");
-        startButton.setId("startButton");
-
-        Button optionsButton = new Button("Options");
-        optionsButton.setId("optionsButton");
-
-        Button exitButton = new Button("Exit");
-        exitButton.setId("exitButton");
-
-        StackPane pane = new StackPane();
-        pane.getChildren().add(startButton);
-        pane.getChildren().add(optionsButton);
-        pane.getChildren().add(exitButton);
-
-        Scene scene = new Scene(pane);
-
-        scene.getStylesheets().add("css.css");
-
+    	
+    	FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
+    	
         primaryStage.setTitle("Sagan om den stora dasen");
         primaryStage.setMaximized(true);
-        primaryStage.setScene(scene);
+        primaryStage.setScene(new Scene(loader.load()));
 
         primaryStage.show();
     }
