@@ -3,6 +3,7 @@
  */
 public class Test {
     public static void test(){
-        System.out.println("Testet funkar");
+        System.out.println("Testet funkar ser");
+
     }
 }
