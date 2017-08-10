@@ -16,22 +16,13 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) throws Exception {
 
         Button startButton = new Button("Start");
-        startButton.setTranslateY(-100);
-        startButton.setMaxSize(150, 50);
-        startButton.setStyle("-fx-background-color: green");
+        startButton.setId("startButton");
 
         Button optionsButton = new Button("Options");
-        optionsButton.setMaxSize(150, 50);
-        optionsButton.setStyle("-fx-background-color: blue");
+        optionsButton.setId("optionsButton");
 
         Button exitButton = new Button("Exit");
-        exitButton.setTranslateY(100);
-        exitButton.setMaxSize(150, 50);
-        exitButton.setStyle("-fx-border-color: yellow");
-        exitButton.setStyle("-fx-border-width: 1px");
-        exitButton.setStyle("-fx-border-style: solid");
-        exitButton.setStyle("-fx-background-color: red");
-
+        exitButton.setId("exitButton");
 
         StackPane pane = new StackPane();
         pane.getChildren().add(startButton);
@@ -39,6 +30,8 @@ public class MainApp extends Application {
         pane.getChildren().add(exitButton);
 
         Scene scene = new Scene(pane);
+
+        scene.getStylesheets().add("css.css");
 
         primaryStage.setTitle("Sagan om den stora dasen");
         primaryStage.setMaximized(true);
