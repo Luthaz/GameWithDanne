@@ -16,7 +16,7 @@ public class MainApp extends Application {
     	
     	FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
     	
-        primaryStage.setTitle("Sagan om den stora dasen");
+        primaryStage.setTitle("Sagan om SpoderJW");
         primaryStage.setMaximized(true);
         primaryStage.setScene(new Scene(loader.load()));
 
