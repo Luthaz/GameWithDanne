@@ -13,6 +13,6 @@ public class Controller {
     public Button exitButton;
  
     public void handlePressMe(){
-        System.out.println("Danneboi är king");
+        System.out.println("Danneboi Ã¤r king");
     }
 }
