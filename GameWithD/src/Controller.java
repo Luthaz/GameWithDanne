@@ -12,7 +12,15 @@ public class Controller {
     @FXML
     public Button exitButton;
  
-    public void handlePressMe(){
-        System.out.println("Danneboi är king");
+    public void handleOnStart() {
+    	System.out.println("Start");
+    }
+    
+    public void handleOnOptions() {
+        System.out.println("Options");
+    }
+    
+    public void handleOnExit() {
+    	System.out.println("Exit");
     }
 }
