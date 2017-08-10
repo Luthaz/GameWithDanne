@@ -1,5 +1,11 @@
-#startButton{
+#BorderPane{
+    -fx-background-image: url("Images/ThatDab.PNG");
+    -fx-fit-height: 1000px;
+}
 
+#startButton{
+	-fx-background-color: rgb(53, 53, 53);
+	-fx-text-base-color: white;
     -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
     -fx-min-height: 150px;
     -fx-min-width: 600px;
@@ -7,17 +13,19 @@
 }
 
 #optionsButton{
-	-fx-background-color: orange;
-    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+	-fx-background-color: rgb(53, 53, 53);
+	-fx-text-base-color: white;
+	-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
     -fx-min-height: 150px;
     -fx-min-width: 600px;
 }
 
 #exitButton{
-	-fx-background-color: orange;
+	-fx-background-color: rgb(53, 53, 53);
+	-fx-text-base-color: white;
+	-fx-font-size: 3em;
     -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
     -fx-translate-y: 250px;
-    -fx-translate-x: 500px;
     -fx-min-height: 150px;
     -fx-min-width: 600px;
 }
