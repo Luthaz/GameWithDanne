@@ -1,14 +1,23 @@
 #startButton{
-    -fx-background-color: green;
+
     -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-min-height: 150px;
+    -fx-min-width: 600px;
+    -fx-translate-y: -250px;
 }
 
 #optionsButton{
 	-fx-background-color: orange;
     -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-min-height: 150px;
+    -fx-min-width: 600px;
 }
 
 #exitButton{
-	-fx-background-color: cyan;
+	-fx-background-color: orange;
     -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-translate-y: 250px;
+    -fx-translate-x: 500px;
+    -fx-min-height: 150px;
+    -fx-min-width: 600px;
 }
