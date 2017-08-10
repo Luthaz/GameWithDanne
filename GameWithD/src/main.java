@@ -3,7 +3,7 @@
  */
 public class main {
     public static void main(String[] Args){
-        Test test = new Test();
-        test.test();
+        Window window = new Window();
+        window.CreateWindow();
     }
 }
