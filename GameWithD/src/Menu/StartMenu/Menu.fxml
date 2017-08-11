@@ -5,7 +5,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<BorderPane fx:controller="Menu.StartMenu.Controller" fx:id="BorderPane"
+<BorderPane fx:controller="src.Menu.StartMenu.Controller" fx:id="BorderPane"
             xmlns:fx="http://javafx.com/fxml">
  
     <stylesheets>

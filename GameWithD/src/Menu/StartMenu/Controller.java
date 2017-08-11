@@ -1,4 +1,4 @@
-package Menu.StartMenu;
+package src.Menu.StartMenu;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
