@@ -1,7 +1,11 @@
-<?import javafx.scene.layout.*?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
-<?import java.net.URL?>
-<BorderPane fx:controller="Controller" fx:id="BorderPane"
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane fx:controller="Menu.StartMenu.Controller" fx:id="BorderPane"
             xmlns:fx="http://javafx.com/fxml">
  
     <stylesheets>
